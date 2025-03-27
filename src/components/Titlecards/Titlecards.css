@@ -1,0 +1,52 @@
+.titlecards {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+.a{
+    margin-bottom: 0%;
+}
+.titlecards h2 {
+    
+    margin-bottom: 8px;
+}
+
+.card_list {
+    width: 100%vh;
+    height: 240px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    bottom: 0px;
+    background-size:cover;
+   
+
+}
+
+
+.card_list::-webkit-scrollbar {
+    display: none;
+}
+
+.card_list .card .img {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 1;
+}
+
+.card_list .card {
+   
+    position: relative;
+}
+ 
+.card_list .card h3 {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}

@@ -1,0 +1,78 @@
+.herro{
+    position: relative;
+
+
+}
+
+.banner-image{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent,black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent,black 75%);
+}
+
+.herro-camption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+    
+}
+.hcaptions {
+    
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+   
+
+}
+
+.hcaptions p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.h-btn{
+    
+    display: flex;
+    gap: 10 px;
+    margin-bottom: 50px;
+}
+
+.h-btn .btn img{
+    width: 25px;
+    mix-blend-mode: multiply;
+
+}
+
+.h-btn .btn {
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer; 
+    
+}
+
+
+ 
+.h-btn .btn .dark_btn{
+    color: white;
+    background: #6d6d6eb3;
+
+}
+ 
+.h-btn .btn :hover{ background: #ffffffbf;
+
+
+}
+
+.h-btn .btn .dark_btn:hover{
+background: #6d6d6e66;
+}
